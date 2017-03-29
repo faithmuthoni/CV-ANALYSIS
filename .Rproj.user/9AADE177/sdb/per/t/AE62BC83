@@ -1,0 +1,29 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1490607549209.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "AE62BC83",
+    "lastKnownWriteTime" : 7308604914264011873,
+    "last_content_update" : 1490607549209,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "cacheKey" : "AA7A604E",
+        "caption" : "EmailPresent",
+        "contentUrl" : "grid_resource/gridviewer.html?env=&obj=EmailPresent&cache_key=AA7A604E",
+        "displayedObservations" : 313031,
+        "environment" : "",
+        "object" : "EmailPresent",
+        "preview" : 0,
+        "totalObservations" : 313031,
+        "variables" : 68
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_dataframe"
+}

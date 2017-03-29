@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "attach(graduates)\ngetwd()\nsetwd(\"C:/Users/Faith Muthoni/Desktop/Brave/HELB DATA\")\n\nEmailPresent=graduates[grep(\"@\", graduates$EMAILADD), ]\nView(EmailPresent)\n\nNewHELB=EmailPresent[ ,c(\"EMAILADD\", \"MOBILEPHONE\", \"TOWN\", \"EMPLOYER\", \"DATEBIRTH_DATE\", \"REGNO\")]\n\ninstall.packages(\"xlsx\")\n\nlibrary(xlsx)\nwrite.csv(x=NewHELB, file = \"C:/Users/Faith Muthoni/Desktop/Brave/HELB DATA/New HELB\")\n\nwrite_excel_csv(NewHELB, \"NewHelb\")\n\n",
+    "created" : 1490606709424.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1447814342",
+    "id" : "123FD172",
+    "lastKnownWriteTime" : 1490624399,
+    "last_content_update" : 1490624399385,
+    "path" : "C:/Users/Faith Muthoni/Desktop/Brave/HELB DATA/Script for HELB Data.R",
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
